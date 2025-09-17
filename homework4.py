@@ -1,10 +1,10 @@
-a = 10
-b = 15
-c = 5
-print (a+c)
-new_a = 15
-print(c+c)
-new_c = 10
-print(b-a)
-new_b = 5
-print(new_a,new_b, new_c)
+a = int(input("enter a value"))
+b = int(input("enter b value"))
+c = int(input("enter c value"))
+a = a+b+c
+b = a-(b+c)
+c =  a-(b+c)
+a=a-(b+c)
+print ("a = ",a)
+print ("b = ",b)
+print ("c= ",c)
